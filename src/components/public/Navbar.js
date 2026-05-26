@@ -14,6 +14,7 @@ export default function Navbar() {
         <li><Link href="/" className="hover:text-primary transition-colors">Home</Link></li>
         <li><Link href="/books" className="hover:text-primary transition-colors">Catalog</Link></li>
         <li><Link href="/services" className="hover:text-primary transition-colors">Services</Link></li>
+        <li><Link href="/contact" className="hover:text-primary transition-colors">Contact</Link></li>
         <li><Link href="/about" className="hover:text-primary transition-colors">About</Link></li>
       </ul>
 

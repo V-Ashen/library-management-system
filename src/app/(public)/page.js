@@ -43,8 +43,8 @@ export default function HomePage() {
           </a>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {/* Card 1 */}
+<div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          {/* Card 1: Renaissance */}
           <div className="group cursor-pointer">
             <div className="w-full h-64 bg-slate-800 rounded-lg mb-4 overflow-hidden shadow-md">
                <div className="w-full h-full bg-[url('https://images.unsplash.com/photo-1541963463532-d68292c34b19?q=80&w=600')] bg-cover bg-center transition-transform duration-500 group-hover:scale-105"></div>
@@ -53,19 +53,21 @@ export default function HomePage() {
             <p className="text-sm text-gray-600 leading-relaxed font-body">Digitally restored primary sources from the 14th to 17th centuries.</p>
           </div>
           
-          {/* Card 2 */}
+          {/* Card 2: Modern Physics */}
           <div className="group cursor-pointer">
-            <div className="w-full h-64 bg-white rounded-lg mb-4 flex items-center justify-center border border-gray-200 shadow-sm group-hover:shadow-md transition-shadow">
-               <FlaskConical size={48} className="text-gray-300 group-hover:text-secondary transition-colors" />
+            <div className="w-full h-64 bg-slate-800 rounded-lg mb-4 overflow-hidden shadow-md">
+               {/* Using a scholarly physics/chalkboard image */}
+               <div className="w-full h-full bg-[url('https://images.unsplash.com/photo-1635070041078-e363dbe005cb?q=80&w=600')] bg-cover bg-center transition-transform duration-500 group-hover:scale-105"></div>
             </div>
             <h3 className="text-xl font-headline font-bold text-primary mb-2 group-hover:text-secondary transition-colors">Modern Physics</h3>
             <p className="text-sm text-gray-600 leading-relaxed font-body">Peer-reviewed journals and cutting-edge research in subatomic particles.</p>
           </div>
 
-          {/* Card 3 */}
+          {/* Card 3: Global Heritage */}
           <div className="group cursor-pointer">
-            <div className="w-full h-64 bg-white rounded-lg mb-4 flex items-center justify-center border border-gray-200 shadow-sm group-hover:shadow-md transition-shadow">
-               <Map size={48} className="text-gray-300 group-hover:text-secondary transition-colors" />
+            <div className="w-full h-64 bg-slate-800 rounded-lg mb-4 overflow-hidden shadow-md">
+               {/* Using a vintage cartography/globe image */}
+               <div className="w-full h-full bg-[url('https://images.unsplash.com/photo-1524661135-423995f22d0b?q=80&w=600')] bg-cover bg-center transition-transform duration-500 group-hover:scale-105"></div>
             </div>
             <h3 className="text-xl font-headline font-bold text-primary mb-2 group-hover:text-secondary transition-colors">Global Heritage</h3>
             <p className="text-sm text-gray-600 leading-relaxed font-body">An extensive map collection charting demographic shifts across centuries.</p>
