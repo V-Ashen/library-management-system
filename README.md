@@ -46,3 +46,4 @@ A full-stack learning project developed with Next.js, Tailwind CSS, and MongoDB.
 
 Open http://localhost:3000 to view the website.
 Open http://localhost:3000/admin to view the Admin Portal.
+(admin@alexandria.edu , admin123)
